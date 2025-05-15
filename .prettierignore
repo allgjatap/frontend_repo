@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vscode/
+package.json
+*.config.js
+*.md
+*.yml
+*.json

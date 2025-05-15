@@ -1,0 +1,16 @@
+:root {
+  --slider-filler-bg: #000; /* Default value */
+  --slider-thumb-bg: #000; /* Default value */
+}
+
+.Slider-filler {
+  background-color: var(--slider-filler-bg);
+}
+
+.Slider-thumb {
+  background-color: var(--slider-thumb-bg);
+}
+
+.Slider-track {
+  border-inline-start-color: var(--slider-thumb-bg);
+}

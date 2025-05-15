@@ -1,0 +1,19 @@
+{
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 120,
+  "bracketSpacing": true,
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindConfig": "./tailwind.config.js",
+  "useTabs": false,
+  "arrowParens": "always",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "proseWrap": "always",
+  "requirePragma": false,
+  "jsonRecursiveSort": true,
+  "trailingComma": "es5",
+  "endOfLine": "lf"
+}
