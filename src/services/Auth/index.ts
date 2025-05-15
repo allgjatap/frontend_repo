@@ -161,9 +161,11 @@ export const meLoader = async () => {
         queryKey: query,
         queryFn: authMe,
       });
+      return data;
     }
 
     data = result;
+    return data;
   } catch {
     redirect('/login');
   }

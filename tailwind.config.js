@@ -1,4 +1,5 @@
-const { nextui } = require('@nextui-org/react');
+import { nextui } from '@nextui-org/react';
+import typography from '@tailwindcss/typography'; 
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -48,6 +49,6 @@ export default {
         },
       },
     }),
-    require('@tailwindcss/typography'),
+    typography
   ],
 };
